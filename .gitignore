@@ -1,0 +1,28 @@
+# Thank you : https://github.com/github/gitignore/blob/master/Node.gitignore
+
+# project
+dist/
+coverage/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directory
+# Commenting this out is preferred by some people, see
+# https://npmjs.org/doc/faq.html#Should-I-check-my-node_modules-folder-into-git
+node_modules
+build/devPage.config.js
+
+
+# Users Environment Variables and others
+.idea/
+.DS_Store
+*.tgz
+
+.vscode
+
+dev-entries/
